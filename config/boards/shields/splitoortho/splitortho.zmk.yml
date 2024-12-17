@@ -1,0 +1,13 @@
+file_format: "1"
+id: splitortho
+name: splitortho
+type: shield
+url: https://github.com/MakotoKurauchi/splitortho
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - splitortho_left
+  - splitortho_right
